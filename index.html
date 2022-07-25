@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Ignited minds</title>
+<style type="text/css">
+.gotobtn {
+position: fixed;
+width: 50px;
+height: 50px;
+background: blue;
+right: 50px;
+bottom: 40px;
+text-align: center;
+line-height: 50px;
+color: white;
+font-size: 22px;
+}
+/* Set a style for all buttons */
+button .j {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.container {
+ padding: 30px 100px 100px 150px;
+font-size: 30px;
+}
+.igni {
+  width: 30%;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+.social {
+display: none;
+position: fixed;
+left: -40%;
+padding: 0px 60px 0px 20px;
+top: 7%;
+border: 1px solid #888;
+background-color: white;
+height: 65px;
+}
+#cs {
+margin: -1px -15px 0px 0px;
+}
+#s {
+list-style: none;
+display: flex;
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  text-align: justify;
+  text-decoration: inherit;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.header {
+width: 100%;
+height: 100vh;
+ }
+ 
+ .header > *{
+ padding: 20px 0px 10px 0px;
+ }
+.logo {
+ position: absolute;
+ margin: 0.3% 0% 0% -48%;
+ }
+ .header a {
+ text-decoration: none;
+ }
+  
+ .containt .mySlides fade {
+ flex-grow: 1;
+ }
+ 
+ .menu {
+ width: 100%;
+ background-color: #0082e6;
+ overflow: hidden;
+ padding: 0;
+ margin: 0;
+ }
+ .menu .list {
+  float: left;
+}
+ .menu .list li{
+  display: inline-block;
+  line-height: 27px;
+}
+.menu .list li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  overflow: auto;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+ .j {
+  font-size: 17px;
+  padding: 7px 13px;
+  background-color: white;
+  text-transform: uppercase;
+  float: right;
+  border-radius: 3px;
+  margin: 13px 40px 0px 0px;
+}
+
+.j:hover {
+ background: #1b9bff;
+  transition: .5s;
+}
+
+.list a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+#checkbtn{
+  color: white;
+  float: left;
+  margin: 8px 0px 0px 25px;
+  cursor: pointer;
+  display: none;
+}
+#closebtn {
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  display: none;
+  }
+#check{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+   .sliders {
+    margin-top: -60%;
+    font-size: inherit; 
+}
+ .login {
+ margin-left: -20px;
+ }
+ .login .text{
+    font-size: 30px;
+  }
+  .login form{
+    padding: 10px 0 0 0;
+  }
+  .login form .form-row{
+    display: block;
+  }
+
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .sub-btn .input-data{
+    width: 40% !important;
+  }
+.j {
+  margin: 8px 25px 0px 0px;
+}
+
+.container {
+  padding: 60px 30px;
+  font-size: inherit;
+}
+.menu{
+height: 50px;
+}
+  label #closebtn {
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  display: block;
+  background: #2c3e50;
+  z-index: 1111;
+  top: 155px;
+  padding: 5px 10px 5px 125px;
+  font-size: 20px;
+  color: white;
+  margin-left: -180px;
+  transition:all .5s ;
+  }
+  #checkbtn{
+  display: block;
+  font-size: 30px;
+  padding: 0px 10px;
+  border-radius: 3px;
+  }
+  .list {
+   margin: 0;
+    padding: 0;
+    width: 150px;
+   font: inherit;
+    position: absolute;
+    background: #2c3e50;
+    top: 180px;
+    left: -120%;
+    transition: all .5s;
+  }
+  .menu .list li {
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+    display: block;
+    line-height: 35px;
+    margin: 0px;
+  }
+  
+ .list :hover {
+    background: #1b9bff;
+
+  }
+  #checkbtn:hover {
+  background: #1b9bff;
+  transition:all .5s;
+  }
+   #closebtn:hover {
+  background: #1b9bff;
+  transition:all .5s;
+  }
+   #check:checked ~ label #closebtn{
+  left: 188px;
+  } 
+
+  #check:checked ~ .list {
+    left: 8px;
+  }
+}
+ .i {
+ margin-right: 15px;
+ border-style: solid;
+ border-color: teal;
+ border-radius: 3px;
+ font-size: 17px;
+ text-transform: uppercase;
+ text-decoration: none;
+ text-align: center;
+ padding: 12px 50px;
+ background-color: white;
+ color: maroon;
+ float: right;
+ margin-bottom: 0.5rem;
+ display: block;
+ }
+
+ .headr {
+ display: flex;
+ order: 1;
+ width: 100%;
+ margin-top: 15px;
+  list-style: none;
+ }
+.i:hover {
+ background-color: #1b9bff;
+ }
+ 
+ .footr {
+ display: flex;
+ padding: 0px 0px 10px 20px;
+ flex-direction: column-reverse;
+ margin-bottom: 5px;
+ background-color: #0082d9;
+ }
+ 
+ .footr ul {
+display: flex;
+list-style: none;
+ }
+ 
+  .footr small {
+ max-width: 500px;
+ }
+ 
+  @media screen and (max-width: 600px) {
+
+    .login {
+ margin-left: -70px;
+ }
+
+   .headr img {
+max-width: 150px;
+margin: -3.2% 0% 0% -47%;
+ }
+  .i {
+ font-size: inherit;
+ padding: 5px;
+ }
+ .social {
+ position: absolute;
+left: 27%;
+width: auto;
+padding: 0px 20px 0px 10px;
+margin: -10% 5% 0% 6%; 
+height: 50px;
+}
+#s a {
+width: 15px;
+font-size: inherit;
+
+}
+#cs {
+font-size: inherit;
+margin: 1px -15px 0px 0px;
+}
+ label #closebtn{
+ top: 132px;
+ }
+ .list {
+ top: 163px;
+ }
+ }
+  @media screen and (max-width: 320px) {
+   .left, .right {font-size: 11px}
+   .headr img {
+max-width: 140px;
+margin: -3.5% 0% 0% -45%;
+ }
+  .i {
+ font-size: 16px;
+ padding: 5px;
+ }
+ }
+@media screen and (max-width: 280px) {
+ 
+.j {
+margin: 8px 12px 0px 0px;
+padding: 5px 8px;
+}
+.container {
+  padding: 35px 10px;
+  font-size: inherit;
+}
+#checkbtn{
+margin: 10px 0px 0px 12px;
+}
+ .headr img {
+  position: absolute;
+max-width: 120px;
+margin: -5% 0% 0% -43.5%;
+ }
+.social {
+left: 18%;
+top: 4%;
+}
+.i {
+ font-size: 14px;
+ padding: 5px;
+ }
+  label #closebtn{
+ top: 128px;
+ }
+ .list {
+ top: 160px;
+ }
+}
+ @media screen and (min-width: 280px) {
+
+ul.icon .fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 15px;
+  margin: 5px 2px;
+  }
+ .icon {
+ padding-left: 0px; 
+ }
+ .headr {
+ width: auto;
+ margin-top: 0;
+ display: block;
+ text-align: center;
+ }
+ 
+ .headr .i {
+ order: 1;
+ }
+ 
+ .footr .headr .icon ul {
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ width: auto;
+}
+ .footr {
+ margin-bottom: 0;
+   }
+ 
+ }
+ 
+ :root {
+	--main-white-color: white;
+	--main-purple-color: #9e89b8;
+}
+.containt .mySlides fade {
+display: flex;
+flex-direction: column;
+justify-content: center;
+min-height: 350px;
+}
+.containt {
+padding: 20px;
+background-color: navy;
+color: white;
+}
+.containt .mySlides fade {
+max-width: 500px;
+}
+.left{
+padding-left: 7px;
+}
+
+.right {
+right: 0;
+padding-right: 35px;
+}
+.sliders {
+max-width: 1000px;
+  position: relative;
+  margin: auto;
+  }
+.right,.left{
+    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 15%;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#tim {
+background-color: teal;
+padding: 30px;
+margin: 25px 0px 25px 0px;
+}
+#ricor {
+background-color: gray;
+padding: 30px;
+margin: 25px 0px 25px 0px;
+}
+#ricor a{
+font-weight: bold;
+font-size: 20px;
+color: blue;
+}
+#ricor a:hover {
+color: red;
+}
+@media screen and (min-width: 768px) {
+.containt .mySlides fade {
+padding-left: 90px;
+}
+.social {
+left: 50%;
+padding: 0px 60px 0px 20px;
+margin: -2.9% 10% 0% 4%; 
+}
+#cs {
+margin: -1px -15px 0px 0px;
+}
+.footr {
+padding-left: 90px;
+}
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.footr small {
+font-size: inherit;
+}
+ul.icon .fa {
+ border-radius: 50%;
+  padding: 5px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background: black;
+  color: white;
+  }
+  
+.icon .fa:hover {
+background-color: teal;
+}
+.show {
+  display: block;
+}
+   
+ .login{
+  max-width: 80%;
+  background: #fff;
+  width: 80%;
+  padding: 25px 40px 12px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.login .text{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  background: teal;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.login form{
+  padding: 30px 0 0 0;
+}
+.login form .form-row{
+  display: block;
+  margin: 32px 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 30px;
+  margin: 0 10px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underline{
+  position: absolute;
+  bottom: -1;
+  height: 1px;
+  width: 100%;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.sub-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 100%!important;
+}
+.sub-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute; 
+  left: -100%;
+  background: teal;
+  transition: all 0.4s;
+}
+.sub-btn .input-data:hover .inner{
+  left: 0;
+}
+.sub-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+#log {
+color: black;
+margin: 30px 0px  10px 100px;
+}
+
+</style>
+</head>
+<body>
+<a class="gotobtn" href="#"><i class="fas fa-arrow-up"></i></a>
+<div class="header">
+<header class="headr">
+<nav>
+<img src="punam/logo2.jpg" alt="logo" class= "logo" style="width:220px;height:48px;">
+</nav>
+<button class ="i" onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><i class="fa fa-share"></i>share</button>
+<div id="id02" class="social">
+ <span onclick="document.getElementById('id02').style.display='none'" class="close" id="cs" title="Close Modal">&times;</span>
+<ul class="icon" id="s">
+<li><a href="https://m.facebook.com/Ignited-Minds-STEM-Lab-269907837176484/?ref=bookmarks" class="fa fa-facebook"></a></li>
+<li><a href="https://www.instagram.com/invites/contact/?i=jtmuat5qc6ey&utm_content=i6294hk" class="fa fa-instagram"></a></li>
+<li><a href="https://www.youtube.com/channel/UCJ3aQr7FNLIDKHazoxg0JJA" class="fa fa-youtube"></a></li>
+<li><a href="https://www.linkedin.com/in/ignited-minds-14557b1b1b4" class="fa fa-linkedin"></a></li>
+<li><a href="https://twitter.com/IgnitedMinds15?s=08" class="fa fa-twitter"></a></li>
+</ul>
+</div>
+<div class="menu">
+       <input type="checkbox" id="check">
+      <label for="check">
+      <i class="fa fa-bars" id="checkbtn"></i>
+      <i class="fa fa-close" id="closebtn"></i>
+      </label>
+      <a href="#log" class ="j" style="width:auto;"><i class="fa fa-fw fa-user"></i>contact us</a>
+      <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="punam/logo2.jpg" alt="Igni" class="igni">
+    </div>
+
+    <div class="container">
+     <small>
+<b>Address</b> : A/P-Nimgaon Ketki,Kanhoba Mala,<br>
+                    Tal-Indapur,Dist-Pune.413120<br>
+                    <b>Contact Us</b>: 9527544478, <br>
+<b>Email</b> : nkignitedminds@gmail.com
+</small> 
+</div>
+  </form>
+</div>
+      
+      <ul class="list">
+        <li><a href="#home">Home</a></li>
+		<li><a href="#team">Team</a></li>
+		<li><a href="#ricor">Resources</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+
+</header>
+
+<main class="containt">
+
+<section id="home">
+<div class="mySlides fade">
+  <img src="punam/i1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="punam/i2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="punam/i3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="punam/i4.jpg" style="width:100%">
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+</section>
+<section id="team">
+<div id="tim">
+ <p>
+<b>1. Mr.Atul Sangita Atmaram<br>
+Founder,Ignited Minds</b><br>
+
+Atul completed his Post graduate diploma in Water,Sanitation and Hygiene from Tata Institute of Social Sciences.Currently he is working with UNICEF,Uttar Pradesh.Being and Engineer and Specilization in WASH, he blend his knowledge for establishing STEM and WASH educational platforms at school.He has core expertise in Solid Waste Management.His prior 5 years work experience in rural development helps to overall school transformation.He is Runner up for 4rth National social Idea Competition-2019 organised by Azim Premaji University,Bangalore.
+ <br>
+ <br>
+  <br>
+   <br>
+ <b>2. Mr.Anand Uttam Bhong.<br>
+Agricultural Officer,Govt.Of Maharashtra<br>
+Subject Expert,Ignited Minds</b><br>
+
+Anand has completed his graduation in Agriculture  from Mahatma Fule Agricultural University,Pune.He is university rank holder and expertise in agricultural domain.Currently he is working as Agricultural Officer.
+<br> <br> <br> <br>
+<b>3. Mr.Amol Ramchandra Mohite<br>
+Deputy Educational Officer,Govt of Maharashtra.<br>
+Subject Expert,Ignited Minds.</b><br>
+
+Amol  completed his graduation in agriculture from Mahatma Fule Agricultural University, Pune.He has received many  awards like Krushi Chashak.He worked with Government of Maharashtra since last 3 years.His expertise in strategic planning  will help school to define  it's own identity.
+<br> <br> <br> <br>
+
+<b>4. Mrs Pooja B Gore.<br>
+Assistant Section Officer,Mantralay.<br>
+Subject Expert,Ignited Minds.</b><br>
+ 
+Pooja completed her graduation in arts from Savitribai Fule University,Pune.She has very fond of children's.Her expertise in Child development helps effective implementation of child centric programs.Currently She is working as Section Officer at Mantralay.
+<br> <br> <br> <br>
+<b>5. Mr.Amol Dasa Jadhav<br>
+Cofounder,Ignited Minds.</b><br>
+Amol did his engineering in Information and Technology and Currently he is a manager in MNC.His 5 Years experience in IT field helps us to make availability of digital platforms at school.
+<br> <br> <br> <br>
+<b>6. Mr.Sameer Mane<br>
+Cofounder,<br>
+Technical Lead,Ignited Minds.</b><br>
+Sameer did his engineering in ENTC.His interest in agricultural and STEM education brings new innovation for student.
+<br>
+</p>
+</div>
+</section>
+<section id="resource">
+<div id="ricor">
+<h2>RESOURCES</h2><br>
+<p> 1).To open the Technical manual
+<a href="documents/Ignited Minds Technical manual .pdf">click here</a></p><br>
+<p> 2).To open the Ignited Minds Activity
+<a href="documents/Ignited Minds Activity Based Learning Report.pdf">click here</a></p><br>
+<p> 3).To open the Y4J Report
+<a href="documents/Y4J Report.pdf">click here</a></p><br>
+</div>
+</section>
+<section id="gallery">
+<div>
+  <img src="punam/gallery/g1.jpeg" style="width:100%">
+  <img src="punam/gallery/g2.jpeg" style="width:100%">
+  <img src="punam/gallery/g3.jpeg" style="width:100%">
+</div>
+</section>
+<section id="about">
+<div>
+ <p><b>About Us:</b><br>
+<br>
+Ignited Minds is a Social  Enterprise  Started in January  2019.Ignited Minds engaged in STEM education  and WASH sector. Ignited Minds major work comprises of   establishing STEM educational platforms ,WASH platforms at  School and community level. Ignited  Minds also working for Capacity building of Teachers, Students and related stakeholders through its innovative methods. Ignited Minds work on research and development in STEM education and WASH sector.
+</p>
+<p>
+<b>Our Vision:</b><br>
+<br>
+We will work to  improve educational outcomes by establishing STEM education, WASH platforms and creating  infrastructure for complementary education such as Science Park, STEM labs, Science Labs, play grounds, WASH clubs and Skill development Programs at schools.
+</p>
+
+
+
+Mr. Atul Sangita Raut.<br>
+Founder,Ignited MindsM<br>
+PGDWASH<br>
+Tata Institute Of Social Sciences,<br>
+Tuljapur. (MH)<br>
+9527544478
+</div>
+</section>
+<section id="log">
+ <div class="login">
+      <div class="text">Contact us</div>
+      <form action="#">
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" required="">
+            <div class="underline"></div>
+            <label for="">Full Name</label>
+          </div>
+         </div>
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" required="">
+            <div class="underline"></div>
+            <label for="">Email Address</label>
+          </div>
+         </div>
+        <div class="form-row">
+          <div class="input-data textarea">
+            <textarea rows="8" cols="80" required=""></textarea>
+            <div class="underline"></div>
+            <label for="">Write your message</label>
+          </div>
+        </div>
+        <div class="form-row sub-btn">
+          <div class="input-data">
+            <div class="inner"></div>
+            <input type="submit" value="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+</section>
+</main>
+
+<footer class="footr">
+<small>
+<b>Address</b> : A/P-Nimgaon Ketki,Kanhoba Mala,
+Tal-Indapur,Dist-Pune.413120<br>
+<b>Contact Us</b> : 9527544478, <br><b>Email</b> : nkignitedminds@gmail.com
+</small>
+<ul class="icon">
+<li><a href="#" class="fa fa-whatsapp"></a></li>
+<li><a href="https://m.facebook.com/Ignited-Minds-STEM-Lab-269907837176484/?ref=bookmarks" class="fa fa-facebook"></a></li>
+<li><a href="https://www.instagram.com/invites/contact/?i=jtmuat5qc6ey&utm_content=i6294hk" class="fa fa-instagram"></a></li>
+<li><a href="https://www.youtube.com/channel/UCJ3aQr7FNLIDKHazoxg0JJA" class="fa fa-youtube"></a></li>
+<li><a href="https://www.linkedin.com/in/ignited-minds-14557b1b1b4" class="fa fa-linkedin"></a></li>
+<li><a href="https://twitter.com/IgnitedMinds15?s=08" class="fa fa-twitter"></a></li>
+
+</ul>
+</footer>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+var social = document.getElementById('id02');
+
+//When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+ if (event.target == social) {
+     modal.style.display = "none";
+ }
+}
+
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.bar')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+
+
+var indexValue = 1;
+showSlides(indexValue);
+function dots(e){showSlides(indexValue = e);}
+function side_slide(e){showSlides(indexValue += e);}
+function showSlides(e){
+  var i;
+  const slides = document.querySelectorAll('.mySlides');
+  const dots = document.querySelectorAll('.dots');
+  if(e > slides.length){indexValue = 1}
+  if(e < 1){indexValue = slides.length}
+  for(i = 0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  for(i = 0; i < dots.length; i++){
+    dots[i].style.background = "rgba(255,255,255,0.1)";
+  }
+  slides[indexValue-1].style.display = "block";
+  dots[indexValue-1].style.background = "white";
+}
+
+</script>
+
+</body>
+</html>
